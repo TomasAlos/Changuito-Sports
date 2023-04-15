@@ -1,0 +1,123 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color:darkcyan
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+header {
+    padding: 20px 0 0 0;
+    background: darkcyan;
+    text-align: center;
+}
+
+.ndlc {
+    margin: 15px 10px 15px 15px;
+    padding: 10px 10px 12px 15px;
+}
+
+#btn{
+    margin: 15px 10px 15px 15px;
+}
+
+#temperatura {
+    margin: 5px 5px 5px 200px;
+    font-size: 30px;
+    padding: 3px 3px;
+}
+
+.frio {
+    color: rgb(234, 237, 241);
+}
+
+.caliente {
+    color: rgb(233, 18, 18);
+}
+
+
+@media (min-width: 750px) {
+    header {
+        text-align: left;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+#encabezado {
+    margin: 30px 0;
+}
+
+.submenu {
+    position: relative;
+}
+
+#img-carrito {
+    cursor: pointer;
+}
+
+.card {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    background: white;
+}
+.info-card {
+    padding: 10px 20px;
+}
+
+.info-card p, 
+.card h4 {
+    margin-bottom: 5px;
+}
+
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#logo {
+    color:black;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+#lista-producto .row {
+    margin-bottom: 20px;
+}
+
+.agregar-carrito {
+    margin: 10px 0;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background-color:darkorange;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}

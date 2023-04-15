@@ -1,0 +1,26 @@
+[
+    {
+        "img": "pelota adidas.webp",
+        "name": "pelota adidas",
+        "owner": "Tomas Alos",
+        "price": 5000,
+        "price_descount": 1500,
+        "id": 1
+    },
+    {
+        "img": "pelota nike.webp",
+        "name": "pelota nike",
+        "owner": "Javier Alonso",
+        "price": 5000,
+        "price_descount": 1500,
+        "id": 2
+    },
+    {
+        "img": "pelota umbro.webp",
+        "name": "pelota umbro",
+        "owner": "Lucila Estevez",
+        "price": 5000,
+        "price_descount": 1500,
+        "id": 3
+    }
+]
